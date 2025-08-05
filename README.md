@@ -1,7 +1,40 @@
 # Phishing Email Analysis Report
 
-**Date:** August 5, 2025
+**Date:** August 5, 2025,
 **Analyst:** [Mohd Uzair]
+
+**The Following Email is a Sample Of Phishing Email:**
+
+------------------ EMAIL HEADER ------------------
+
+From: "Netflix Support" <support-id8345@updates-netflix.com>
+Reply-To: security.claims@aol.com
+Date: Tue, 5 Aug 2025 13:15:10 +0530
+Subject: Action Required: Your Account is On Hold!
+Received: from mail.random-server.bg (185.11.25.33) by mail.google.com with ESMTP
+
+------------------ EMAIL BODY ------------------
+
+Dear Customer,
+
+We have detected a problem with your billing information and your account is now on hold. You need to update you're payment details to avoid account closure.
+
+Failure to update your information within 24 hours will result in permanent suspension of your account. We take your security very seriously and this is a required step.
+
+To fix this, please click the link bellow and sign in to your account:
+
+Update Your Account Here: https://www.netflix.com/your-account
+
+Thank you,
+The Netflix Team.
+
+-------------------------------------------------
+
+**SPOILER ALERT / HIDDEN INFO:**
+*When you hover your mouse over the link "https://www.netflix.com/your-account", the actual web address it points to is:* `http://netflix-billing-update.io/login`
+
+
+
 
 ## 1. Objective
 
